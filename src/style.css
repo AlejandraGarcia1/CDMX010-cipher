@@ -13,37 +13,42 @@ body{
     padding-top: 40px;
     padding-bottom: 40px;
     padding-left: 10%;
-    padding-right: 10%;
-    /* margin: auto; */
-    
+    padding-right: 10%;    
 }
 
-/* Diseño de la tarjeta */
+/* Diseño del Boleto de lotería */
 
-.card{    
+.ticket{    
     width:100%;  
     margin-left: 20px;
     max-width: 450px;
+    background-color: white;
     color: #B4B2B2;
     border-radius: 20px;
-    background-image: url(imagenes/Tarjeta.jpg);
-    background-size: cover;  
-    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.2)
-       
+    background-image: url(imagenes/Free\ St_\ Patrick\'s\ Day\ Scrapbook\ Papers.jpg);
+    background-size: cover;     
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.2)       
 }
 
 
-.chip{
+.millonario{    
     width: 100%;
-    max-width: 45px;
-    margin-bottom: 20px;
-    margin-top: 40px;
-    padding-left: 20px;
+    max-width: 600px;  
+    margin-top: 20px;
+    margin-left: 180px;
+    margin-bottom: 5px;   
 }
 
-.card-number{
+.number{
+    color: black;
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-top: 5px;    
+}
+
+.card-award{
     font-size: 12px;
-    color:#6d6d6d;
+    color: black;
     padding-left: 20px;
 }
 
@@ -58,14 +63,14 @@ body{
     justify-content: space-between;
 }
 
-.card-user{
+.lucky{
     font-size: 12px;
-    color:#6d6d6d;
+    color: rgb(102, 102, 102);
     padding-left: 20px;
 }
 
-.card-name{
-    color: black;
+.specialAward{
+    color:rgba(102, 102, 102, 0.808);
     font-size: 16px;
     padding-left: 20px;
     text-transform: uppercase;
@@ -73,29 +78,31 @@ body{
 
 /* --------- tex-transform:uppercase hace que los datos que se ingresen se vean en mayusculas ----------- */
 
+/*Logo Bardcode */
+
 .logo{
     width: 100%;
-    max-width: 80px;
-   
+    max-width: 65px;
+    margin-right: 20px;       
 }
 
-/* Validador */
+/* Validador del código ganador */
 
 .title{
     text-align: center;   
     color: black;
-
 }
 
 hr{ 
     background-color: #9F9F9F;
     width: 322px;
     margin-bottom: 10px;
-   
+    background-color: greenyellow;
+    border-color: greenyellow;     
 }
 
-.renovation{
-    color: #369FFF;
+.link{
+    color: rgb(130, 192, 37);
     text-decoration: none;
   
 }
@@ -123,15 +130,13 @@ hr{
 .form-number{
     display: flex;
     flex-direction: column;
-    margin-bottom: 43px;    
+    margin-bottom: 20px;    
 }
 
 .numero{
     font-size: 13px;
     color: #5f5e5e;
-    margin-bottom: 5px; 
-
-
+    margin-bottom: none;
 }
 
 .number{
@@ -142,25 +147,9 @@ hr{
     outline: none;   
 }    
 
-.form-name{
+.botones{
     display: flex;
-    flex-direction: column;
-    margin-bottom: 43px;  
-}
-
-.name{
-    font-size: 13px;
-    color: #5f5e5e;
-    margin-bottom: 5px;  
-}
-
-.names{
-    box-shadow: 1px 2px 5px 1px rgba(0, 0, 0, 0.2);
-    border:1px #B4B2B2 solid;
-    padding-top: 6px;
-    padding-bottom: 6px;
-    text-transform: uppercase;
-    outline: none;   
+    justify-content: space-between;
 }
 
 .sent{
@@ -173,12 +162,11 @@ hr{
     color: white; 
     box-shadow: 1px 2px 5px 1px rgba(0, 0, 0, 0.2);
     outline: none;   
-    width: 500px;
+    width: 230px;
 }
 
 /* outline elimina la linea del hover al momento de querer enviar la informacion */
 
 .sent:hover{
-    cursor: pointer;  
-
+    cursor: pointer;
 }

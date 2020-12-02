@@ -10,62 +10,56 @@
     <title> Cifrado César </title>
 
 <body>   
-    <!-- Trajeta -->
+    <!-- Boleto de loteria-->
 
     <div class="container">
-        <section class="card" id="card">
+        <section class="ticket" id="ticket">
             <div class="logo">
-                <img src="imagenes/chipp.png" class="chip">
+                <img src="imagenes/millonario.png" class="millonario">
             </div>
             <div class="information">
                 <div class="card-information" id="number">
-                    <p class="card-number">Número de tarjeta</p>
-                    <p class="encript-number">#########</p>
+                    <p class="card-award"><strong>Premio ganador</strong></p>
+                    <p class="encript-number" id="encriptNumber"><strong>#########</strong></p>
                 </div>
 
                 <div class="flexbox">
                     <div class="user-name" id="user-name">
-                        <p class="card-user">Nombre del tarjetahabiente</p>
-                        <p class="card-name">NOMBRE DEL USUARIO</p>
+                        <p class="lucky"><strong>¡Confía en tu suerte!</strong></p>
+                        <p class="specialAward" id="nombreusuario"><strong>PREMIO ESPECIAL DE $5,000,000</strong></p>
                     </div>
                     <div class="card-logo">
-                        <img src="imagenes/mastercardlogo.png" class="logo">
+                        <img src="imagenes/barcode-product.png" class="logo">
                     </div>
                 </div>
             </div>                  
         </section>
 
-        <!-- Validador -->
+        <!-- Validador de codigo ganador-->
 
         <form action="" class="validator" id="validator">
-            <h1 class="title"> Validador de membresía </h1>
+            <h1 class="title"> Descifra el código ganador </h1>
             <hr>
 
-            <p class="benefits"><strong>¡No dejes que tus beneficios se acaben!</strong></p>
-            <p> Manten vigente tu membresía en todo momento. Para renovar tu membresía ingresa a <a class="renovation" href="https://www.costco.com.mx/membresias">www.alejandra-renovacion.com.mx </a></p>
+            <p class="benefits"><strong>¡Obten grandes premios y recompensas!</strong></p>
+            <p> Ingresa la palabra o código de tu cupón para reclamar tu premio. Consulta otras promociones en <a class="link" href="https://www.lotenal.gob.mx/Comercial/index.html">www.codea-y-gana.com.mx </a></p>
             <br>  
             
 
             <div class="form-number">
-                <label for="numero" class="numero">Número de tarjeta</label>              
-                <input type="number" class="number" id="number" maxlength="18">
+                <label for="numero" class="numero">Código / Palabra</label>              
+                <input type="text" class="number" id="number" maxlength="18">
             </div>
-            <div class="form-name">               
-                <label for="name" class="name">Nombre del tarjetahabiente</label>                
-                <input type="text" class="names" id="name" maxlength="25">
-            </div>
-            <button type="submit" class="sent">Enviar</button>
+
+            <div class="botones">
+               <button type="submit" class="sent" id="btn" onclick="getData()">Cifrar</button>     
+               <button type="submit" class="sent" id="btn" onclick="getData()">Descifrar</button>   
+            </div>             
         </form>
-
-
-    </div>
-
-   
-
-    
-        
+    </div>        
   
-    <script src="javascript.js"></script>
+    <script src="cipher.js"></script>
     
 </body>
 </html>
+
