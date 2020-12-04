@@ -54,8 +54,14 @@ body{
 
 .encript-number{
     color: black;
-    font-size: 16px;
-    padding-left: 20px;    
+    font-size: 20px;
+    font-weight: bolder;
+    padding-left: 20px; 
+    background-color: transparent;  
+    margin-left: 1px; 
+    border-color: transparent;
+    outline: none;
+    text-transform: uppercase;
 }
 
 .flexbox{
@@ -144,7 +150,8 @@ hr{
     border:1px #B4B2B2 solid;
     padding-top: 6px;
     padding-bottom: 6px;
-    outline: none;   
+    outline: none;  
+    text-transform: uppercase; 
 }    
 
 .botones{
@@ -152,7 +159,7 @@ hr{
     justify-content: space-between;
 }
 
-.sent{
+.encode{
     padding-top: 6px;
     padding-bottom: 6px;
     border-radius: 2px;
@@ -167,6 +174,23 @@ hr{
 
 /* outline elimina la linea del hover al momento de querer enviar la informacion */
 
-.sent:hover{
+.encode:hover{
+    cursor: pointer;
+}
+
+.decode{
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-radius: 2px;
+    border: 2px #369FFF solid;
+    background-color: #369FFF;
+    font-size: 22px;
+    color: white; 
+    box-shadow: 1px 2px 5px 1px rgba(0, 0, 0, 0.2);
+    outline: none;   
+    width: 230px; 
+}
+
+.decode:hover{
     cursor: pointer;
 }

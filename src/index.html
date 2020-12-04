@@ -20,7 +20,7 @@
             <div class="information">
                 <div class="card-information" id="number">
                     <p class="card-award"><strong>Premio ganador</strong></p>
-                    <p class="encript-number" id="encriptNumber"><strong>#########</strong></p>
+                    <p type="text" class="encript-number" id="encriptNumber" maxlength="18">######</p>
                 </div>
 
                 <div class="flexbox">
@@ -48,17 +48,20 @@
 
             <div class="form-number">
                 <label for="numero" class="numero">Código / Palabra</label>              
-                <input type="text" class="number" id="number" maxlength="18">
-            </div>
+                <input type="text" class="number" id="phrase" maxlength="18">
+
+                <label for="numero" class="numero">Espacios de desplazamiento</label>              
+                <input type="text" class="number" id="space" maxlength="2">
+            </div>           
 
             <div class="botones">
-               <button type="submit" class="sent" id="btn" onclick="getData()">Cifrar</button>     
-               <button type="submit" class="sent" id="btn" onclick="getData()">Descifrar</button>   
+               <button type="button" class="encode" id="encode" >Cifrar</button>     
+               <button type="button" class="decode" id="decode" >Descifrar</button>   
             </div>             
         </form>
     </div>        
   
-    <script src="cipher.js"></script>
+    <script src="index.js" type="module"></script>
     
 </body>
 </html>
