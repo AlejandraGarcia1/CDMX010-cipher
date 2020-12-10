@@ -10,7 +10,7 @@
 <p>Se busca crear una plataforma Web amigable e intuitiva que permita codificar y
 descodificar información en base al Cifrado César. 
 <br>
-El cifrado por sustitución funciona remplazando cada letra del texto original 
+Siendi un cifrado por sustitución funciona remplazando cada letra del texto original 
 (Código/Palabra), por otra que se encuentra a un número fijo de posiciones (Espacios 
 de desplazamiento) más adelante en el mismo alfabeto.
 
@@ -23,14 +23,14 @@ de desplazamiento) más adelante en el mismo alfabeto.
 ## Contexto
 
 <p>Pensando en la población que disfruta adquirir o participar en algún tipo de promocional
-se creó <strong>MEGA – MILLONARIO,</strong> una plataforma Web amistosa con el usuario, donde al ingresar el
+se creó <strong>MEGA – MILLONARIO</strong> una plataforma Web amistosa con el usuario, donde al ingresar el
 código o palabra del promocional y definir un número de espacios de desplazamiento, se obtendrá el Premio ganador.</p>
 
 ## Proceso
 
 ![](/imagenes_readme/Imagen2.png) 
 
-## Uso
+## Usabilidad
 
 ### Codificar:
 
@@ -42,9 +42,9 @@ código o palabra del promocional y definir un número de espacios de desplazami
 
 ## Retrospectiva
 
-<p>Mi mayor desafío sin duda fue el Java Script. Al comenzar en el mundo de la programación los comandos, flujos y lógica se vuelven fundamentales; por lo cual, la investigación realizada en distintas fuentes ha sido de gran ayuda.
+<p>Mi mayor desafío sin duda fue el Java Script. Al comenzar en el mundo de la programación, los comandos, flujos y lógica se vuelven fundamentales; por lo cual, la investigación realizada en distintas fuentes ha sido de gran ayuda.
 
-Por otro lado, el acompañamiento y asesoría de los Coaches ha contribuido a no perder el enfoque y objetivo tanto de la investigación, como al escribir código; donde la iteración y el autoaprendizaje han sido el eje principal durante todo el proceso.</p>
+Por otro lado, el acompañamiento y asesoría de los Coaches ha contribuido a no perder el enfoque y objetivo tanto de la información, como al escribir código; donde la iteración y el autoaprendizaje han sido el eje principal durante todo el proceso.</p>
 
 <br>
 
