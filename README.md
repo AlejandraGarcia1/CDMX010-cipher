@@ -10,7 +10,7 @@
 <p>Se busca crear una plataforma Web amigable e intuitiva que permita codificar y
 descodificar información en base al Cifrado César. 
 <br>
-Siendi un cifrado por sustitución funciona remplazando cada letra del texto original 
+Al ser un cifrado por sustitución funciona remplazando cada letra del texto original 
 (Código/Palabra), por otra que se encuentra a un número fijo de posiciones (Espacios 
 de desplazamiento) más adelante en el mismo alfabeto.
 
