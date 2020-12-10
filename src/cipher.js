@@ -1,8 +1,12 @@
 //------ En esta sección se efine la funcionalidad total del proyecto -------
 
 const cipher = { //Se crea un objeto con propiedades y métodos para el cifrado / descifrado.  
-  encode: function(userInput, offset){ //Se define la función (propiedad del objeto) con 2 parámetros: string y offset.
+  encode: function(offset, userInput){ //Se define la función (propiedad del objeto) con 2 parámetros: string y offset.
     
+      if (!userInput) {
+        throw new Error("User input no puede ser una string vacio")
+      }
+      
       let code = ""; //Se define una variable donde se guardarán las nuevas letras ("frase encriptada")
           
       for (let i=0; i<userInput.length; i++){ //Se define un "For" para indicar el ciclo que se realizará: La función va recorriendo cada letra del userInput hasta llegar a la ultima.       
@@ -22,7 +26,7 @@ const cipher = { //Se crea un objeto con propiedades y métodos para el cifrado 
      }     
      return code; //Pedimos que nos regrese el resultado de la variable "Code"
   },
-  decode: function (letters, offset){ //Se define el descifrado.
+  decode: function (offset, letters){ //Se define el descifrado.
 
     let newOffset = 26 - (offset % 26); //Definimos un nuevo "Offset" para que al desencriptar comience el ciclo desde el prncipio y no retroceda. 
     let message = "";

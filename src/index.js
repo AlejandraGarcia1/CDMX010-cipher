@@ -10,7 +10,7 @@ buttonEncode.onclick = function() { //Definimos las acciones que ejecutará el b
     let desplazamiento = document.getElementById('space').value;
     let offset = parseInt(desplazamiento);
    
-    let message = cipher.encode(userInput, offset); //Definimos una nueva variable que ejecutará el cifrado de la información que ingrese el usuario en los inputs.
+    let message = cipher.encode(offset, userInput); //Definimos una nueva variable que ejecutará el cifrado de la información que ingrese el usuario en los inputs.
    
     document.getElementById("encriptNumber").innerHTML = message; //Definimos que se debe visualizar la información que obtuvimos de la variable, en la sección de boleto de lotería.  
 }; 
@@ -22,7 +22,7 @@ buttonDecode.onclick = function() {
     let letters = document.getElementById('phrase').value;  
     let offset = document.getElementById('space').value;
    
-    let message = cipher.decode(letters,offset);  
+    let message = cipher.decode(offset, letters);  
 
     document.getElementById("encriptNumber").innerHTML = message;
 };
