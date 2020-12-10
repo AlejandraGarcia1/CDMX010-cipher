@@ -9,6 +9,7 @@
 
 <p>Se busca crear una plataforma Web amigable e intuitiva que permita codificar y
 descodificar información en base al Cifrado César. 
+<br>
 El cifrado por sustitución funciona remplazando cada letra del texto original 
 (Código/Palabra), por otra que se encuentra a un número fijo de posiciones (Espacios 
 de desplazamiento) más adelante en el mismo alfabeto.
@@ -22,9 +23,8 @@ de desplazamiento) más adelante en el mismo alfabeto.
 ## Contexto
 
 <p>Pensando en la población que disfruta adquirir o participar en algún tipo de promocional
-se creó MEGA – MILLONARIO, plataforma web amistosa con el usuario donde al ingresar el
-Código o Palabra del promocional y definir un número de Espacios de Desplazamiento,
-obtendrá el Premio ganador.</p>
+se creó <strong>MEGA – MILLONARIO,</strong> una plataforma Web amistosa con el usuario, donde al ingresar el
+código o palabra del promocional y definir un número de espacios de desplazamiento, se obtendrá el Premio ganador.</p>
 
 ## Proceso
 
@@ -38,7 +38,7 @@ obtendrá el Premio ganador.</p>
 
 ### Decodificar:
 
-![](/imagenes_readme/Imagen3.png) 
+![](/imagenes_readme/Imagen4.png) 
 
 ## Retrospectiva
 
@@ -46,6 +46,7 @@ obtendrá el Premio ganador.</p>
 
 Por otro lado, el acompañamiento y asesoría de los Coaches ha contribuido a no perder el enfoque y objetivo tanto de la investigación, como al escribir código; donde la iteración y el autoaprendizaje han sido el eje principal durante todo el proceso.</p>
 
-<p>¡Si tienes cualquier tipo de feedback, estaría muy agradecida que me lo hicieras saber!</p>
+<br>
 
+**¡Si tienes cualquier tipo de feedback, estaría muy agradecida que me lo hicieras saber!**
 #### agarcia_pacheco@hotmail.com
