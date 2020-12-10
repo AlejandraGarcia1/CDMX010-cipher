@@ -1,6 +1,6 @@
 body{
     font-family: 'Lato', sans-serif;
-    background-color: turquoise;
+    background-color: #cbe2b0;
       
 }
 
@@ -35,7 +35,7 @@ body{
     width: 100%;
     max-width: 600px;  
     margin-top: 20px;
-    margin-left: 180px;
+    margin-left: 190px;
     margin-bottom: 5px;   
 }
 
@@ -61,7 +61,7 @@ body{
     margin-left: 1px; 
     border-color: transparent;
     outline: none;
-    text-transform: uppercase;
+    
 }
 
 .flexbox{
@@ -79,7 +79,7 @@ body{
     color:rgba(102, 102, 102, 0.808);
     font-size: 16px;
     padding-left: 20px;
-    text-transform: uppercase;
+   
 }
 
 /* --------- tex-transform:uppercase hace que los datos que se ingresen se vean en mayusculas ----------- */
@@ -94,17 +94,17 @@ body{
 
 /* Validador del código ganador */
 
-.title{
+.title{    
+    font-family: 'Fjalla One', sans-serif;
     text-align: center;   
-    color: black;
+    color: #438a5e;
 }
 
 hr{ 
-    background-color: #9F9F9F;
+    background-color: #a8dda8;
     width: 322px;
-    margin-bottom: 10px;
-    background-color: greenyellow;
-    border-color: greenyellow;     
+    margin-bottom: 10px;    
+    border-color: #a8dda8;     
 }
 
 .link{
@@ -151,7 +151,7 @@ hr{
     padding-top: 6px;
     padding-bottom: 6px;
     outline: none;  
-    text-transform: uppercase; 
+   
 }    
 
 .botones{
