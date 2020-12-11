@@ -22,7 +22,7 @@ de desplazamiento) más adelante en el mismo alfabeto.
 
 ## Contexto
 
-<p>Pensando en la población que disfruta adquirir o participar en algún tipo de promocional, se creó <strong>MEGA–MILLONARIO</strong> una plataforma Web amistosa con el usuario, donde al ingresar el código o palabra del promocional y definir un número de espacios de desplazamiento, se obtendrá el premio ganador.</p>
+<p>Pensando en la población que disfruta adquirir o participar en algún tipo de promocional, se creó <strong>MEGA–MILLONARIO</strong> una plataforma Web amistosa con el usuario, donde al ingresar el código o palabra del promocional y definir un número de espacios de desplazamiento, se obtiene el premio ganador.</p>
 
 ## Proceso
 
