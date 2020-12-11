@@ -8,7 +8,7 @@
 ## El Proyecto
 
 <p>Se busca crear una plataforma Web amigable e intuitiva que permita codificar y
-descodificar información en base al Cifrado César. 
+decodificar información en base al Cifrado César. 
 <br>
 Al ser un cifrado por sustitución funciona remplazando cada letra del texto original 
 (Código/Palabra), por otra que se encuentra a un número fijo de posiciones (Espacios 
@@ -22,9 +22,7 @@ de desplazamiento) más adelante en el mismo alfabeto.
 
 ## Contexto
 
-<p>Pensando en la población que disfruta adquirir o participar en algún tipo de promocional
-se creó <strong>MEGA – MILLONARIO</strong> una plataforma Web amistosa con el usuario, donde al ingresar el
-código o palabra del promocional y definir un número de espacios de desplazamiento, se obtendrá el Premio ganador.</p>
+<p>Pensando en la población que disfruta adquirir o participar en algún tipo de promocional, se creó <strong>MEGA–MILLONARIO</strong> una plataforma Web amistosa con el usuario, donde al ingresar el código o palabra del promocional y definir un número de espacios de desplazamiento, se obtendrá el premio ganador.</p>
 
 ## Proceso
 
@@ -48,5 +46,5 @@ Por otro lado, el acompañamiento y asesoría de los Coaches ha contribuido a no
 
 <br>
 
-**¡Si tienes cualquier tipo de feedback, estaría muy agradecida que me lo hicieras saber!**
+**¡Si tienes cualquier tipo de feedback o comentario, estaría muy agradecida que me lo hicieras saber!**
 #### agarcia_pacheco@hotmail.com
