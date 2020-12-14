@@ -31,5 +31,5 @@ buttonDecode.onclick = function() {
 
 
 //Estamos indicando que estamos entrando al objeto de cipher en el parametro de "Encode" y "Decode".
-console.log(cipher.encode());
-console.log(cipher.decode());
+// console.log(cipher.encode());
+// console.log(cipher.decode());

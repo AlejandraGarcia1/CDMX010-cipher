@@ -2,12 +2,14 @@
 
 const cipher = { //Se crea un objeto con propiedades y métodos para el cifrado / descifrado.  
   encode: function(offset, userInput){ //Se define la función (propiedad del objeto) con 2 parámetros: string y offset.
-    
-      if (!userInput) {
-        throw new Error("User input no puede ser una string vacio")
-      }
-      
-      let code = ""; //Se define una variable donde se guardarán las nuevas letras ("frase encriptada")
+      // TEST UNITARIOS             
+      // if (!offset && !userInput){
+      //   throw new TypeError("Error");
+      // } else if (typeof(offset) != Number && typeof(userInput != String)){
+      //   throw new TypeError("Error en la matriz");
+      // }       
+
+      let code = ""; //Se define una variable donde se guardarán las nuevas letras ("frase encriptada")     
           
       for (let i=0; i<userInput.length; i++){ //Se define un "For" para indicar el ciclo que se realizará: La función va recorriendo cada letra del userInput hasta llegar a la ultima.       
        let text = userInput.charCodeAt(i); //Se pasa cada letra del userInput a código ASCII y se guarda en la nueva variable de "texto"
@@ -17,12 +19,10 @@ const cipher = { //Se crea un objeto con propiedades y métodos para el cifrado 
         
        } else if (text >= 65 && text <=90){        
         code += String.fromCharCode((text - 65 + offset) %26 +65); //Se aplica la formula para obtener el cifrado. En este caso son "Mayusculas".
-        console.log('CIFRADO1', code);        
-
+        // console.log('CIFRADO1', code);
        } else {         
          code += userInput.charAt(i); //Aplicamos "charAt" para convertir los números directamente a un String.
-         
-       }       
+      }    
      }     
      return code; //Pedimos que nos regrese el resultado de la variable "Code"
   },
@@ -46,7 +46,18 @@ const cipher = { //Se crea un objeto con propiedades y métodos para el cifrado 
       }
     }
     return message;
-  }   
+  },
 };
+
+// (offset, userInput) =>{
+//   if (!offset && !userInput){
+//         throw new TypeError("Error");
+//       } else if (typeof(offset) !== Number && typeof(userInput !== String)){
+//         throw new TypeError("Error en la matriz");
+//       } 
+// }
+
+
+
 
 export default cipher; //Estamos exportando la página de "Cipher".
