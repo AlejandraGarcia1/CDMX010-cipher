@@ -2,12 +2,15 @@
 
 const cipher = { //Se crea un objeto con propiedades y métodos para el cifrado / descifrado.  
   encode: function(offset, userInput){ //Se define la función (propiedad del objeto) con 2 parámetros: string y offset.
-      // TEST UNITARIOS             
-      // if (!offset && !userInput){
-      //   throw new TypeError("Error");
-      // } else if (typeof(offset) != Number && typeof(userInput != String)){
-      //   throw new TypeError("Error en la matriz");
-      // }       
+      // TEST UNITARIOS     
+      if (offset == null) {
+        throw new TypeError ('Not Valid');
+      } else if (userInput == []) {
+        throw new TypeError ('Not Valid');
+      } else if (offset == 0) {
+        throw new TypeError ('Not Valid');
+      }       
+      //
 
       let code = ""; //Se define una variable donde se guardarán las nuevas letras ("frase encriptada")     
           
@@ -27,6 +30,15 @@ const cipher = { //Se crea un objeto con propiedades y métodos para el cifrado 
      return code; //Pedimos que nos regrese el resultado de la variable "Code"
   },
   decode: function (offset, letters){ //Se define el descifrado.
+    //TEST UNITARIOS
+    if (offset == null) {
+      throw new TypeError ('Not Valid');
+    } else if (letters == []) {
+      throw new TypeError ('Not Valid');
+    } else if (offset == 0) {
+      throw new TypeError ('Not Valid');
+    }       
+    //
 
     let newOffset = 26 - (offset % 26); //Definimos un nuevo "Offset" para que al desencriptar comience el ciclo desde el prncipio y no retroceda. 
     let message = "";
@@ -48,16 +60,5 @@ const cipher = { //Se crea un objeto con propiedades y métodos para el cifrado 
     return message;
   },
 };
-
-// (offset, userInput) =>{
-//   if (!offset && !userInput){
-//         throw new TypeError("Error");
-//       } else if (typeof(offset) !== Number && typeof(userInput !== String)){
-//         throw new TypeError("Error en la matriz");
-//       } 
-// }
-
-
-
 
 export default cipher; //Estamos exportando la página de "Cipher".
